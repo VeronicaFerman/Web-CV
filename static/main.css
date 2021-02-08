@@ -17,16 +17,16 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   color: #e7e7e7;
-  background: rgb(19, 19, 19);
+  background: rgb(80, 141, 121);
 }
 
 a {
   text-decoration: none;
-  color: rgb(3, 155, 155);
+  color: rgb(86, 142, 163);
 }
 
 a:hover {
-  color: rgba(249, 105, 14, 1);
+  color: rgba(229, 143, 32);
 }
 
 ul {
@@ -80,8 +80,8 @@ nav {
   margin: 5px 0;
   background: linear-gradient(
     135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
+    rgba(229, 143, 32) 0%,
+    rgb(0, 104, 105) 100%
   );
 }
 
@@ -90,8 +90,8 @@ nav {
   height: 3px;
   background: linear-gradient(
     135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
+    rgba(229, 143, 32) 0%,
+    rgb(0, 104, 105) 100%
   );
 }
 
@@ -102,8 +102,8 @@ nav {
   margin-left: 15px;
   background: linear-gradient(
     135deg,
-    rgba(249, 105, 14, 1) 0%,
-    rgb(255, 255, 255) 100%
+    rgba(229, 143, 32) 0%,
+    rgb(0, 104, 105) 100%
   );
 }
 
@@ -113,7 +113,7 @@ nav {
   position: fixed;
   right: 0;
   top: 0;
-  background: rgba(55, 55, 55, 0.5);
+  background: rgba(255, 232, 209);
   padding: 1.2rem;
   border-radius: 0% 0% 0% 40%;
 }
@@ -133,7 +133,7 @@ nav {
 .nav-list {
   width: 24rem;
   height: 100vh;
-  background-color: #222222;
+  background-color: #f8eaea;
   position: fixed;
   top: 0;
   right: -26rem;
@@ -162,7 +162,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: rgba(249, 105, 14, 1);
+  color: rgba(229, 143, 32);
 }
 
 .toggle {
@@ -199,8 +199,8 @@ nav {
   height: 100vh;
   background: linear-gradient(
       135deg,
-      rgba(0, 64, 77, 0.9) 0%,
-      rgba(0, 0, 0, 0.8) 100%
+      rgb(164, 179, 137) 0%,
+      rgba(0, 104, 105) 100%
     ),
     url("images/landing-page.png") center no-repeat;
   background-size: contain;
@@ -219,13 +219,13 @@ nav {
 }
 
 .main-message h2 {
-  letter-spacing: 1.2rem;
-  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
   animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite;
-  width: 27ch;
+  width: 100ch;
   margin: auto;
   border-right: 4px solid rgba(255, 255, 255, 1);
 }
@@ -233,7 +233,7 @@ nav {
 @keyframes typing {
   75% {
     width: 0ch;
-    color: rgba(249, 105, 14, 1);
+    color: rgb(86, 142, 163);
   }
   100% {
     width: 27ch;
@@ -252,11 +252,11 @@ nav {
 .main-message h3 {
   font-size: 4rem;
   margin: 1rem 0;
-  color: rgba(249, 105, 14, 1);
+  color: rgba(28, 49, 68);
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgba(214, 128, 115) 0%,
+    rgba(104, 195, 212) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -276,7 +276,7 @@ nav {
 
 .btn {
   margin: 0 9px;
-  background: rgba(3, 155, 155);
+  background: rgb(86, 142, 163);
   border-radius: 2rem;
   color: #fafafa;
   padding: 1rem 2.5rem;
@@ -289,7 +289,7 @@ nav {
 
 .btn:hover {
   color: #fafafa;
-  background-color: rgba(189, 72, 0);
+  background-color: rgba(28, 49, 68);
 }
 
 .scroll-down i {
@@ -348,8 +348,8 @@ hr {
   margin: 4rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgba(214, 128, 115) 0%,
+    rgba(104, 195, 212) 100%
   );
   border: 0;
   height: 1px;
@@ -404,11 +404,11 @@ hr {
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgba(214, 128, 115) 0%,
+    rgba(104, 195, 212) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:  rgb(247, 235, 235);
   background-clip: inherit;
 }
 
@@ -450,11 +450,11 @@ hr {
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgba(214, 128, 115) 0%,
+    rgba(104, 195, 212) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:  rgb(247, 235, 235);
   background-clip: inherit;
 }
 
@@ -466,7 +466,7 @@ hr {
 .project-link {
   display: inline-block;
   margin: 2rem 0;
-  font-size: 1.4rem;
+  font-size: 2.5rem;
 }
 
 /* Contact */
@@ -477,6 +477,7 @@ hr {
   max-width: 70rem;
   margin: auto;
   padding-top: 5rem;
+  background-color: rgb(214, 146, 135);
 }
 
 .contact h2 {
@@ -497,6 +498,7 @@ hr {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 5rem;
 }
 
 /* Footer */
