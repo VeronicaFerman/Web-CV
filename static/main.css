@@ -121,7 +121,7 @@ nav {
 .profile-pic {
   height: 9rem;
   width: auto;
-  border-radius: 50%;
+  border-radius: 70%;
   display: block;
   margin: 1.5rem 0;
 }
@@ -219,8 +219,8 @@ nav {
 }
 
 .main-message h2 {
-  letter-spacing: 0.5rem;
-  font-size: 4rem;
+  letter-spacing: 1.2rem;
+  font-size: 2rem;
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
@@ -417,6 +417,53 @@ hr {
   font-size: 1.4rem;
 }
 
+
+/* Estudios */
+
+.estudios {
+  padding: 3rem 0;
+  min-height: 100vh;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.has-margin-right {
+  margin: 0 3rem 0 0;
+}
+
+.estudios-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1.45rem 5rem 1.45rem;
+}
+
+.estudios-img {
+  flex: 1;
+}
+
+.estudios-description {
+  flex: 1;
+}
+
+.estudios-description h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+  background: linear-gradient(
+    to right,
+    rgba(214, 128, 115) 0%,
+    rgba(104, 195, 212) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:  rgb(247, 235, 235);
+  background-clip: inherit;
+}
+
+.estudios-description p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+
 /* Projects */
 
 .projects {
@@ -467,6 +514,7 @@ hr {
   display: inline-block;
   margin: 2rem 0;
   font-size: 2.5rem;
+  color: rgb(104, 195, 212);
 }
 
 /* Contact */
@@ -477,7 +525,11 @@ hr {
   max-width: 70rem;
   margin: auto;
   padding-top: 5rem;
-  background-color: rgb(214, 146, 135);
+  background: linear-gradient(
+    135deg,
+    rgb(214, 128, 115) 0%,
+    rgba(0, 104, 105) 100%
+  );
 }
 
 .contact h2 {
@@ -493,12 +545,19 @@ hr {
   margin: 0.9rem 2rem;
 }
 
+.contact-link{
+  font-size: 2rem;
+  color: rgb(104, 195, 212);
+}
+
+
+
 .contact .container {
   min-height: 50vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 5rem;
+  font-size: 20rem;
 }
 
 /* Footer */
@@ -508,9 +567,9 @@ footer {
   max-width: 70rem;
   margin: auto;
   padding: 2.5rem;
-  color: #8a8a8a;
+  color: #f8f2f2;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -518,6 +577,7 @@ footer {
 
 footer a {
   margin: 0 0.2rem;
+  color: rgb(104, 195, 212);
 }
 
 .footer-coded-by {
