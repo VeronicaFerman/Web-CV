@@ -113,14 +113,14 @@ nav {
   position: fixed;
   right: 0;
   top: 0;
-  background: rgba(255, 232, 209);
+  background: #f8eaea;
   padding: 1.2rem;
   border-radius: 0% 0% 0% 40%;
 }
 
 .profile-pic {
-  height: 9rem;
-  width: auto;
+  height: auto;
+  width: 13rem;
   border-radius: 70%;
   display: block;
   margin: 1.5rem 0;
@@ -157,7 +157,7 @@ nav {
   opacity: 0;
   font-size: 1.3rem;
   text-transform: uppercase;
-  color: #cecece;
+  color: rgb(86, 142, 163);
   letter-spacing: 1.5px;
 }
 
@@ -219,16 +219,18 @@ nav {
 }
 
 .main-message h2 {
-  letter-spacing: 1.2rem;
-  font-size: 2rem;
-  font-weight: 400;
+  letter-spacing: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
   overflow: hidden;
   white-space: nowrap;
   animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite;
-  width: 100ch;
+  width: 50ch;
   margin: auto;
   border-right: 4px solid rgba(255, 255, 255, 1);
-}
+  text-align: center;
+  border-left: 0rem;
+} 
 
 @keyframes typing {
   75% {
@@ -236,7 +238,7 @@ nav {
     color: rgb(86, 142, 163);
   }
   100% {
-    width: 27ch;
+    width: 65ch;
   }
 }
 
@@ -250,7 +252,7 @@ nav {
 }
 
 .main-message h3 {
-  font-size: 4rem;
+  font-size: 2.6rem;
   margin: 1rem 0;
   color: rgba(28, 49, 68);
   background: linear-gradient(
@@ -265,7 +267,7 @@ nav {
 
 .main-message p {
   text-transform: none;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: 400;
 }
 
@@ -285,6 +287,7 @@ nav {
   transition: background-color 650ms;
   font-weight: 500;
   letter-spacing: 2px;
+  font-size: 1.5rem;
 }
 
 .btn:hover {
@@ -319,10 +322,10 @@ nav {
 }
 
 .about-img img {
-  height: 12rem;
+  height: 25rem;
   width: auto;
   border-radius: 50%;
-  margin: 2rem;
+  margin: 0rem;
   box-shadow: 0 20px 30px 0 rgba(0, 255, 255, 0.15);
 }
 
@@ -440,6 +443,7 @@ hr {
 
 .estudios-img {
   flex: 1;
+  size: 10rem;
 }
 
 .estudios-description {
