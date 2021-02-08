@@ -259,7 +259,7 @@ nav {
     rgba(104, 195, 212) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:  rgb(247, 235, 235);
   background-clip: inherit;
 }
 
